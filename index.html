@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Window on the Car Studios</title>
+  <meta name="description" content="Window on the Car Studios is an indie game development studio making strange, funny, atmospheric games for browser and Windows.">
+  <meta name="theme-color" content="#0c1020">
+  <meta property="og:title" content="Window on the Car Studios">
+  <meta property="og:description" content="Indie games by Window on the Car Studios. Play and download on itch.io.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://img.itch.zone/aW1nLzI0ODQ3OTIwLnBuZw%3D%3D/315x250%23c/Czmlko.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Window on the Car Studios home">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span class="brand-text">Window on the Car Studios</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="nav-menu" aria-expanded="false" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu" data-nav-menu>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-button" href="https://window-on-the-car-studios.itch.io/" target="_blank" rel="noopener">itch.io</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Indie games • browser • Windows</p>
+          <h1 id="hero-title">Small games with strange hooks, retro textures, and a sense of humor.</h1>
+          <p class="hero-lede">Window on the Car Studios makes compact games ranging from funny platformers to local multiplayer fights and atmospheric horror experiments.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#games">See the games</a>
+            <a class="button button-secondary" href="https://window-on-the-car-studios.itch.io/" target="_blank" rel="noopener">Visit itch.io</a>
+          </div>
+        </div>
+        <aside class="hero-panel reveal" aria-label="Featured release">
+          <p class="panel-kicker">Featured</p>
+          <img class="featured-image" src="https://img.itch.zone/aW1nLzI0ODQ3OTIwLnBuZw%3D%3D/315x250%23c/Czmlko.png" alt="Little Fishing Trip game cover art">
+          <div class="featured-content">
+            <h2>Little Fishing Trip</h2>
+            <p>A short fishing horror game where the lake gets less quiet the longer you stay.</p>
+            <a href="https://window-on-the-car-studios.itch.io/little-fishing-trip" target="_blank" rel="noopener">Play on itch.io</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section stats" aria-label="Studio highlights">
+      <div class="stat reveal">
+        <span>6</span>
+        <p>Released games</p>
+      </div>
+      <div class="stat reveal">
+        <span>3</span>
+        <p>Browser-playable titles</p>
+      </div>
+      <div class="stat reveal">
+        <span>2–4</span>
+        <p>Players in Can Clash</p>
+      </div>
+    </section>
+
+    <section class="section" id="games" aria-labelledby="games-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Game library</p>
+        <h2 id="games-title">Play and download releases</h2>
+        <p>These cards link straight to the studio’s itch.io pages.</p>
+      </div>
+      <div class="games-grid" data-games-grid aria-live="polite"></div>
+    </section>
+
+    <section class="section split" id="about" aria-labelledby="about-title">
+      <div class="about-card reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Making games.</h2>
+        <p>Window on the Car Studios focuses on short, playable projects with clear concepts: a job-based platformer, soda-can combat, puzzle buttons, pixel rolling, and unsettling fishing.</p>
+        <p>The site is intentionally simple so it can be hosted on GitHub Pages without a build system.</p>
+      </div>
+      <div class="principles reveal" aria-label="Studio principles">
+        <article>
+          <h3>Fast to load</h3>
+          <p>Static HTML, CSS, and JavaScript. No framework required.</p>
+        </article>
+        <article>
+          <h3>Easy to update</h3>
+          <p>Edit the game data in <code>script.js</code> when a new itch.io release is published.</p>
+        </article>
+        <article>
+          <h3>Built for GitHub</h3>
+          <p>Drop the files into a repository and publish from the main branch.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Contact and links</p>
+        <h2 id="contact-title">Follow the studio and play the games.</h2>
+        <p>Use itch.io as the main public hub for releases, downloads, ratings, and comments.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://window-on-the-car-studios.itch.io/" target="_blank" rel="noopener">Studio itch.io</a>
+          <a class="button button-secondary" href="https://window-on-the-car-studios.itch.io/geralds-first-job" target="_blank" rel="noopener">Latest highlighted game</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year></span> Window on the Car Studios. Games and artwork belong to their respective creators.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

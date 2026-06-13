@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Window on the Car Studios icon">
+  <rect width="96" height="96" rx="24" fill="#070a14"/>
+  <rect x="17" y="18" width="62" height="43" rx="8" fill="#83e9ff"/>
+  <path d="M24 67h48l-7 10H31z" fill="#f3cb65"/>
+  <circle cx="34" cy="79" r="5" fill="#f3f6ff"/>
+  <circle cx="62" cy="79" r="5" fill="#f3f6ff"/>
+  <path d="M28 30h40v19H28z" fill="#0c1020"/>
+  <path d="M32 34h13v11H32zm19 0h13v11H51z" fill="#f3f6ff" opacity=".9"/>
+</svg>
